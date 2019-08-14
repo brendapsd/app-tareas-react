@@ -1,0 +1,33 @@
+.todo-list{
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item-text-edit{
+    margin: 0 0 0 .5rem;
+}
+
+.todo-item-label{
+    margin: 0px !important;
+    line-height: 25px;
+}
+
+.todo-item-label.done{
+    text-decoration: line-through; 
+}
+
+.todo-item{
+    display: flex;
+    justify-content: normal;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: .25rem;
+}
+
+.todo-item-action{
+    margin: 0 .5rem 0 0;
+}
+
+.new-todo-item {
+    margin-bottom: .5rem; 
+}
